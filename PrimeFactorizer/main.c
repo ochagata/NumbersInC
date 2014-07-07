@@ -35,7 +35,3 @@ int main()
 	}
 	return 0;
 }
-
-
-//sernatin
-//skunkworks1
