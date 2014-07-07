@@ -22,19 +22,19 @@ endif
 # Add inputs and outputs from these tool invocations to the build variables 
 
 # All Target
-all: HelloWorld
+all: FindPitoTheNthDigit
 
 # Tool invocations
-HelloWorld: $(OBJS) $(USER_OBJS)
+FindPitoTheNthDigit: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Cygwin C Linker'
-	gcc  -o "HelloWorld" $(OBJS) $(USER_OBJS) $(LIBS)
+	gcc  -o "FindPitoTheNthDigit" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(EXECUTABLES)$(OBJS)$(C_DEPS) HelloWorld
+	-$(RM) $(EXECUTABLES)$(OBJS)$(C_DEPS) FindPitoTheNthDigit
 	-@echo ' '
 
 .PHONY: all clean dependents

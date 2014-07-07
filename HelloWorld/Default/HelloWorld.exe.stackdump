@@ -1,7 +1,0 @@
-Exception: STATUS_ACCESS_VIOLATION at eip=61138F8D
-eax=00000000 ebx=0028AC38 ecx=00000001 edx=00000001 esi=0028987C edi=61187CD0
-ebp=00000000 esp=002896C0 program=C:\Users\chagatai\workspace\HelloWorld\Default\HelloWorld.exe, pid 17148, thread main
-cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
-Stack trace:
-Frame     Function  Args
-End of stack trace
